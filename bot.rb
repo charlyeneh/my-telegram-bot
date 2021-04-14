@@ -8,8 +8,8 @@ bot.get_updates(fail_silently: true) do |message|
 
   message.reply do |reply|
     case command
-    when /start/i
-      reply.text = "All I can do is say hello. Try the /greet command."
+    when /welcome/i
+      reply.text = "Welcome to Cenech Technology Ltd. The home of Green Energy. We are here to take your orders and resolute on serving you better."
     when /greet/i
       reply.text = "Hello, #{message.from.first_name}. 🤖"
     else
