@@ -2,14 +2,14 @@
 
 # files
 require_relative './news'
-require_relative './motivational'
+# require_relative './motivational'
 
-# dependencies
-require 'telegram/bot'
-require 'motivational_quotes'
-require 'dotenv'
+# # dependencies
+require 'telegram_bot'
+# require 'Motivational_quotes'
+# require 'dotenv'
 
-Dotenv.load
+# Dotenv.load
 
 class NewsBot
   attr_reader :text
@@ -22,9 +22,9 @@ class NewsBot
       when '/news'
         news = News.new
         bot.api.send_message(chat_id: message.chat.id, text: news.random_news)
-      when '/motivational'
-        motivational = motivational.new
-        bot.api.send_message(chat_id: message.chat.id, text: motivational.random_motivational)
+      # when '/motivational'
+      #   motivational = motivational.new
+      #   bot.api.send_message(chat_id: message.chat.id, text: motivational.random_motivational)
       when '/stop'
         bot.api.send_message(chat_id: message.chat.id, text: 'Bye! See you again.')
       else
