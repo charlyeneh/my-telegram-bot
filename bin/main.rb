@@ -1,5 +1,5 @@
-require_relative '../lib/bot.rb'
-require_relative '../lib/motivate.rb'
+require_relative '../lib/bot'
+require_relative '../lib/motivate'
 
 puts 'Hello! , Welcome to Cenech telegram bot'
 puts '----------------------------------------------'

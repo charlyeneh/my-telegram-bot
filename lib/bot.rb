@@ -1,11 +1,9 @@
-# rubocop:disable Metrics/MethodLength
 # rubocop:disable Layout/LineLength
 # rubocop:disable Style/RedundantInterpolation
 # rubocop:disable Layout/IndentationConsistency
 require 'telegram/bot'
-require_relative 'motivate.rb'
-require_relative 'joke.rb'
-
+require_relative 'motivate'
+require_relative 'joke'
 
 class Bot
   def initialize
@@ -41,7 +39,6 @@ class Bot
   end
 end
 
-# rubocop: enable Metrics/MethodLength
 # rubocop: enable Layout/LineLength
 # rubocop: enable Style/RedundantInterpolation
 # rubocop: enable Layout/IndentationConsistency
