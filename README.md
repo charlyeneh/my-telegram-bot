@@ -6,19 +6,19 @@ Capstone Project
 
 # Telegram-news-bot
 
-A Telegram Bot built with Ruby
+A Telegram Bot built with Ruby. It can be used to:
 
-- This is a telegram bot that can display news randomly from different website, and also display motivational quotes.
-- You can request a motivational quote by typing /motivation.
-- Or you can request news  by typing /news to have news from different website.
+- Request a motivational quote by typing /motivate.
+- Or you can request jokes by typing /jike.
+These motivational quotes and jokes are randomly generated.
 
 ## Getting started
 
-- To run the telegram-news-bot you must have Ruby install on your computer. You can downloand and install Ruby from the link below.
+- To run the telegram-bot, you must have Ruby installed on your computer. You can downloand and install Ruby from the link below.
 - windows [Ruby installer](https://rubyinstaller.org/).
 - MAC and LINUX [Ruby official site](https://www.ruby-lang.org/en/downloads/).
 
-## Once Ruby is download and installed, please follow the instructions bellow
+## Once Ruby is downloaded and installed, please follow the instructions bellow
 
 ### 1- Clone the repo in your local folder where you want to run it
 
@@ -38,7 +38,7 @@ A Telegram Bot built with Ruby
 
 ### 4- Run the bot
 
-- Run `ruby bot.rb` to start the bot.
+- Run `ruby main/bot.rb` to start the bot.
 - Open the link to the bot that you've got from the Botfather.
 
 ## How to use the bot
@@ -46,9 +46,9 @@ A Telegram Bot built with Ruby
 This Bot has five commands
 
 - [x] /start - It start the bot, and the bot says Welcome.
-- [x] /news- It display article randomly from various new websites.
-- [x] /motivational - It displays a random motivation quote.
-- [x] /stop  - It stop the bot and says "Bye! see you again".
+- [x] /joke- It display article randomly from various new websites.
+- [x] /motivate - It displays a random motivation quote.
+- [x] /stop  - It stop the bot.
 
 ## The Telegram-news-bot live link
 
