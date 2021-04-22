@@ -38,7 +38,7 @@ These motivational quotes and jokes are randomly generated.
 
 ### 4- Run the bot
 
-- Run `ruby main/bot.rb` to start the bot.
+- Run `ruby ./bin/main.rb` to start the bot.
 - Open the link to the bot that you've got from the Botfather.
 
 ## How to use the bot
