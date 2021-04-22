@@ -1,4 +1,3 @@
-require_relative '../lib/motivate'
 require_relative '../lib/joke'
 
 RSpec.describe Joke do

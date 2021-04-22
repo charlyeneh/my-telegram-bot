@@ -1,5 +1,4 @@
 require_relative '../lib/motivate'
-require_relative '../lib/joke'
 
 RSpec.describe Motivate do
   describe '#make_the_request' do
