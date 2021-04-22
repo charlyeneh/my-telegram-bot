@@ -57,7 +57,7 @@ This Bot has five commands
 
 ## The My-Telegram-bot video presentation live link
 
-- Video [https://www.loom.com/share/b9c5d6b434e74b7cb987cce5e271c260]()
+- Video [](https://www.loom.com/share/b9c5d6b434e74b7cb987cce5e271c260)
 
 ## Built With
 
