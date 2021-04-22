@@ -43,6 +43,10 @@ These motivational quotes and jokes are randomly generated.
 
 ## How to use the bot
 
+- From the 'my-telegram-bot' project folder, Run 'ruby ./bin/main.rb'
+- Then go to telegram desktop app and search for "CenechBot", which is the bot username.
+- Click on the user name and apply the bellow commands.
+
 This Bot has five commands
 
 - [x] /start - It start the bot, and the bot says Welcome.
