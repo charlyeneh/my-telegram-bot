@@ -4,7 +4,7 @@
 
 Capstone Project
 
-# Telegram-news-bot
+# my-telegram-bot
 
 A Telegram Bot built with Ruby. It can be used to:
 
@@ -50,13 +50,10 @@ This Bot has five commands
 - [x] /motivate - It displays a random motivation quote.
 - [x] /stop  - It stop the bot.
 
-## The Telegram-news-bot live link
 
-- You can click [Here]()
+## The My-Telegram-bot video presentation live link
 
-## The Telegram-news-bot video presentation live link
-
-- Video [Here]()
+- Video [https://www.loom.com/share/b9c5d6b434e74b7cb987cce5e271c260]()
 
 ## Built With
 
